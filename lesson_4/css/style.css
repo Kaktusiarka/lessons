@@ -1,0 +1,45 @@
+.prehistory,
+.register {
+    color: palevioletred;
+}
+
+p.prehistory {
+    color: green;
+}
+
+div>p {
+    color: blue;
+}
+
+.city>p {
+
+    color: tomato;
+}
+
+p.about {
+    background-color: brown;
+    color: greenyellow;
+}
+
+.link_about {
+    font-weight: bold;
+    color: brown;
+}
+
+#some-about {
+    background-color: lightgray;
+    color: royalblue;
+}
+
+h3~ul {
+    color: blue;
+}
+
+li>.link_partner {
+    color: blue;
+}
+
+span {
+    color: blueviolet !important;
+    /* Не рекомендується */
+}
