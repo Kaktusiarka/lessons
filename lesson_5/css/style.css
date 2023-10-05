@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Caveat:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:500italic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Kalam:regular&display=swap");
+
+
+/* @import url("fonts.css"); добавление вручную  */
+@import url(reset.css);
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #7D7D7D;
+
+}
+
+.title,
+.sub-title,
+.sub-title-first {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.27;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #37393F;
+}
+
+.sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #6B77E5;
+}
+
+.sub-title-first {
+    font-size: 40px;
+    font-weight: 700;
+    color: #37393F;
+}
+
+.sub-text,
+.list {
+    line-height: 1.46;
+}
+
+.sub-text {
+    font-weight: 400;
+}
+
+.list {
+    font-weight: 500;
+}
+
+.sub-title1,
+.sub-title2,
+.sub-title3 {
+    font-family: "Caveat", fantasy;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: rgba(255, 117, 24);
+    text-align: center;
+}
+
+.sub-title1 {
+    text-shadow: 30px -10px 4px #FFC018;
+}
+
+.text1 {
+    font-family: "Kalam", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.66;
+    text-align: justify;
+    color: rgba(24, 34, 255, 0.5);
+}
+
+.sub-title2 {
+    text-shadow: 20px -15px 10px #557477;
+}
+
+.text2 {
+    font-family: "Kalam", cursive;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: left;
+    text-transform: capitalize;
+
+    color: #775571;
+}
+
+.sub-title3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.text3 {
+    font-family: "DM Sanns";
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.4;
+    text-indent: 50px;
+    color: #158078;
+}
+
+.footer_container {
+    font-weight: 600;
+    line-height: 1.8;
+    text-decoration: overline;
+}
+
+.image {
+    text-align: center;
+}
+
+span {
+    text-decoration: line-through;
+}
