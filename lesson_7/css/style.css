@@ -1,0 +1,330 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #7D7D7D;
+    font-size: 18px;
+    height: 100%;
+}
+
+.licencing {
+    width: 1188px;
+    padding: 30px 15px;
+    margin: 0 auto 30px;
+}
+
+.licencing-title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.licencing-title-info {
+    color: #37393F;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.licencing-title-info span {
+    width: 12px;
+    height: 12px;
+    background-color: #40DDB6;
+    margin-right: 6px;
+    display: inline-block;
+}
+
+.licencing-title-main {
+    color: #37393F;
+    font-size: 60px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 1.21;
+}
+
+.text {
+    font-weight: 400;
+    line-height: 1.46;
+}
+
+.icons,
+.photography {
+    margin-bottom: 100px;
+}
+
+.icons p {
+    margin-bottom: 32px;
+}
+
+.text-space {
+    margin-bottom: 24px;
+}
+
+.licencing-subtitle {
+    color: #37393F;
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 1.21;
+    margin-bottom: 11px;
+    text-transform: capitalize;
+}
+
+.text {
+    font-weight: 400;
+    line-height: 1.46;
+}
+
+.licencing .text span {
+    color: #40DDB6;
+}
+
+.licencing-subtitle2 {
+    color: #37393F;
+    font-size: 30px;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.green {
+    color: #40DDB6;
+    font-size: 30px;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+.license {
+    margin-bottom: 8px;
+}
+
+.fonts {
+    margin-bottom: 30px;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.information h2 {
+    color: #37393F;
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 1.27;
+    margin-bottom: 13px;
+}
+
+.information {
+    width: 860px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.information .text p+p {
+    margin-top: 30px;
+}
+
+.information .text {
+    margin-bottom: 35px;
+}
+
+.ul-list,
+.ol-list {
+    font-weight: 500;
+    line-height: 1.46;
+    padding-left: 43px;
+}
+
+.clothing {
+    max-width: 1270px;
+    font-family: Causten;
+    font-weight: 400;
+    color: #807D7E;
+    font-size: 20px;
+    line-height: 1.67;
+    letter-spacing: 0.40px;
+    padding-left: 21px;
+    margin: 0 auto 100px;
+
+}
+
+.pre-title {
+    margin-bottom: 30px;
+    font-size: 0;
+}
+
+.clothing-rectangle {
+    width: 6px;
+    height: 28px;
+    background: #8a33fd;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.clothing-title {
+    display: inline-block;
+    color: #3C4242;
+    font-size: 28px;
+    font-family: Core Sans C;
+    font-weight: 600;
+    line-height: 1.19;
+    letter-spacing: 0.56px;
+
+}
+
+.clothing-part1 {
+
+    margin-bottom: 25px;
+}
+
+.clothing-part1 h3 {
+    font-family: Core Sans C;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.clothing-text span {
+    font-family: Causten;
+    font-weight: 700;
+    line-height: 1.67;
+
+}
+
+.clothing-text p {
+    margin-bottom: 20px;
+}
+
+
+.clothing-part2 h3 {
+    font-family: Core Sans C;
+    font-weight: 600;
+    line-height: 1.67;
+    margin-bottom: 25px;
+
+}
+
+.jewels {
+    width: 1133px;
+    height: 581px;
+    padding: 30px 15px;
+    margin: 0 auto 50px;
+    font-size: 0;
+    font-family: Cormorant Infant;
+    font-weight: 700;
+}
+
+.jewels_content {
+    width: 503px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 70px 0;
+    margin-right: 85px;
+
+}
+
+.jewels-subtitle {
+    color: #D58417;
+    font-size: 20px;
+    line-height: 1;
+    margin-bottom: 27px;
+}
+
+.jewels-title {
+    color: black;
+    font-size: 64px;
+    line-height: 1;
+    text-transform: capitalize;
+    margin-bottom: 31px;
+}
+
+.jewels-text {
+    /* max-width: 489px; */
+    color: #606060;
+    font-size: 30px;
+    line-height: 1.4;
+}
+
+.jewels-image {
+    display: inline-block;
+    font-size: 0;
+    vertical-align: top;
+
+}
+
+.jewels-image1 {
+    display: inline-block;
+    width: 177px;
+    height: 336px;
+    border-radius: 235px;
+    border: 1px solid #502203;
+    margin-right: 30px;
+    vertical-align: middle;
+}
+
+.jewels-image1 img {
+    border-radius: 235px;
+    margin-left: -10px;
+    padding-top: 14px;
+}
+
+.jewels-image2 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 308px;
+    height: 506px;
+    display: inline-block;
+    border: 1px solid #502203;
+    border-radius: 235px;
+}
+
+.jewels-image2 img {
+    border-radius: 235px;
+    margin-left: -11px;
+    padding-top: 19px;
+}
+
+.practice {
+    width: 1150px;
+    height: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.part_1,
+.part_2,
+.part_3 {
+    width: 860px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.part_1 {
+    height: 350px;
+    border: 20px dashed rgb(112, 123, 185);
+    background-color: rgb(161, 244, 161);
+    margin-bottom: 50px;
+}
+
+.part_1:hover {
+    border: 5px solid transparent;
+}
+
+.part_2 {
+    height: 240px;
+    background: #88314e;
+    color: #ccb6e6;
+    outline: 20px dotted rgb(192, 24, 150);
+    border-radius: 10px 50px;
+    margin-bottom: 85px;
+}
+
+.part_3 {
+
+    height: 170px;
+    background: #f2eded;
+    box-shadow:
+        -5px -5px 10px 5px #2bbfa9,
+        5px 5px 20px 30px #4d729f,
+        inset 5px 5px 10px 10px #68c1a6;
+}
