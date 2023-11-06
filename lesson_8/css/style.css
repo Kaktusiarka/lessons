@@ -1,0 +1,479 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #7D7D7D;
+    font-size: 18px;
+    height: 100%;
+}
+
+
+.header {
+    margin-bottom: 50px;
+}
+
+.header-bg {
+    padding: 40px 2px;
+    background: url(../img/abstract-turquoise-smooth-wave-lines.jpg) 0 0 / contain repeat;
+}
+
+h1 {
+    margin: 40px auto;
+    text-align: center;
+    font-family: 'Playpen Sans', cursive;
+    font-size: 40px;
+    color: #386e89;
+    text-shadow: 4px 0 4px #6B77E5;
+}
+
+
+main {
+    padding: 20px;
+}
+
+.practice {
+    padding: 20px;
+}
+
+.box1 {
+    font-size: 0;
+    margin: 0 auto 100px;
+    max-width: 680px;
+}
+
+.box1-img1,
+.box1-img2 {
+    display: inline-block;
+    max-width: 300px;
+    max-height: 200px;
+    overflow: scroll;
+    margin-right: 40px;
+    padding: 20px;
+}
+
+.box1-img1 p,
+.box1-img2 p {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.box1-img1 {
+    background: rgb(131, 58, 180) linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(29, 218, 253, 1) 50%, rgba(252, 176, 69, 1) 100%) 0 0 / 140px no-repeat;
+}
+
+.box1-img2 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 6%, rgba(0, 212, 255, 1) 47%, rgba(9, 9, 121, 1) 88%);
+}
+
+.box2 {
+    margin: 0 auto 100px;
+    max-width: 1300px;
+    height: 800px;
+    background: url(../img/pr1.jpg) 0 0 / cover;
+    padding: 15px 30px;
+}
+
+.box2-img1 {
+    padding: 15px 30px;
+    background: url(../img/moroccan-flower.png) 0 0 / 100px no-repeat;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(156, 212, 222, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    margin-bottom: 50px;
+}
+
+.box2-img1 span {
+    background: url(../img/pr1.jpg) 0 0 / auto no-repeat scroll;
+    opacity: 0.5;
+}
+
+.box2-img2 {
+    margin-bottom: 50px;
+    background: url(../img/pr4.jpg) 30px 15px / 200px no-repeat;
+    padding: 15px 30px;
+}
+
+.box2-img3 {
+    color: rgb(96, 96, 250);
+    padding: 15px 30px;
+    background:
+        url(../img/pr2.jpg) 50% / 250px 130px no-repeat,
+        url(../img/pr3.jpg) 30%;
+    background-attachment: fixed;
+}
+
+.box3 {
+    color: #E3E3E3;
+    margin: 0 auto 100px;
+    max-width: 1300px;
+    height: 800px;
+    padding: 15px 30px;
+    background: url(../img/pr5.jpg) 0 0 / cover no-repeat;
+    background-attachment: fixed;
+}
+
+.clothing {
+    max-width: 1270px;
+    font-family: Causten;
+    font-weight: 400;
+    color: #807D7E;
+    font-size: 20px;
+    line-height: 1.67;
+    letter-spacing: 0.40px;
+    margin: 0 auto 100px;
+}
+
+.pre-title {
+    margin-bottom: 30px;
+    font-size: 0;
+}
+
+.clothing-title {
+    color: #3C4242;
+    font-size: 28px;
+    font-family: Core Sans C;
+    font-weight: 600;
+    line-height: 1.19;
+    letter-spacing: 0.56px;
+    padding-left: 21px;
+    margin-bottom: 30px;
+    background: url(../img/Rectangle\ 21.jpg) 0 2px no-repeat;
+}
+
+.clothing-part1 {
+    padding-left: 21px;
+    margin-bottom: 25px;
+}
+
+.clothing-part1 h3 {
+    font-family: Core Sans C;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.clothing-text span {
+    font-family: Causten;
+    font-weight: 700;
+    line-height: 1.67;
+}
+
+.clothing-text p {
+    margin-bottom: 20px;
+}
+
+.clothing-part2 {
+    padding-left: 21px;
+}
+
+
+.clothing-part2 h3 {
+    font-family: Core Sans C;
+    font-weight: 600;
+    line-height: 1.67;
+    margin-bottom: 25px;
+
+}
+
+.consulting-business {
+    font-family: "Inter", sans-serif;
+    color: #7D7D7D;
+}
+
+.business {
+    max-width: 703px;
+    padding: 0 15px;
+    margin: 0 auto 100px;
+}
+
+.business-title {
+    margin-bottom: 20px;
+}
+
+.business h2 {
+    color: #37393F;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.22;
+    padding-left: 18px;
+    background: url(../img/Box.jpg) 0 5px no-repeat;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.business h5 {
+    max-width: 415px;
+    color: #37393F;
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+.business-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.46;
+    margin-bottom: 20px;
+}
+
+
+.business-text>p {
+    margin-bottom: 15px;
+}
+
+.business-list {
+    margin-bottom: 43px;
+}
+
+.business-list li {
+    color: #37393F;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    min-height: 33px;
+    background: url(../img/Vector.jpg) 0 3px / 27px no-repeat;
+    padding-left: 35px;
+}
+
+.business-list>li {
+    margin-bottom: 23px;
+}
+
+.business-experience-awards {
+    margin-bottom: 37px;
+}
+
+.business-experience,
+.business-awards {
+    display: inline-block;
+    max-width: 295px;
+    max-height: 140px;
+    padding: 31px 32px 32px 90px;
+    border: 1px solid #E3E3E3;
+}
+
+.business-experience {
+    background: url(../img/Icon.jpg) 31px 32px / 39px 38px no-repeat;
+    margin-right: 21px;
+}
+
+.business-experience h3,
+.business-awards h3 {
+    color: #37393F;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 3px;
+
+}
+
+.business-experience p,
+.business-awards p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.35;
+}
+
+.business-awards {
+    background: url(../img/Icon\ \(1\).jpg) 31px 37px / 39px 38px no-repeat;
+}
+
+.business-button {
+    margin-bottom: 50px;
+}
+
+.business-button a {
+    display: inline-block;
+    background: #6B77E5;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 21px 27px 22px;
+}
+
+
+.latest-projects {
+    max-width: 1270px;
+    padding: 0 15px;
+    margin: 0 auto 150px;
+}
+
+.projects-title {
+    max-width: 852px;
+    text-align: center;
+    margin: 0 auto 47px;
+}
+
+.box {
+    display: inline-block;
+    background: url(../img/Box.jpg) 0 6px no-repeat;
+}
+
+.projects-title h4 {
+    display: inline-block;
+    background: url(../img/Box.jpg) 0 5px no-repeat;
+    padding-left: 18px;
+    color: #37393F;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 14px;
+}
+
+.projects-title h2 {
+    color: #37393F;
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 14px;
+}
+
+.projects-title p {
+    color: #7D7D7D;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 1.46;
+}
+
+.projects-bg {
+    margin-bottom: 58px;
+
+}
+
+.projects-bg h3 {
+    color: #37393F;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.27;
+    margin-bottom: 10px;
+}
+
+.img {
+    width: 384px;
+    height: 500px;
+    margin-bottom: 24px;
+}
+
+
+.projects-bg-img {
+    display: inline-block;
+    max-width: 375px;
+    min-height: 582px;
+    margin: 0 34px 58px 0;
+}
+
+.projects-bg-img h3 {
+    color: #37393f;
+    font-family: Poppins;
+}
+
+.projects-date {
+    background: url(../img/Group\ 22.jpg) 0 0 / 22px no-repeat;
+    padding-left: 26px;
+}
+
+.projects-date p {
+    color: #7D7D7D;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 1.46;
+}
+
+.img {
+    margin-bottom: 24px;
+    max-width: 100%;
+}
+
+.projects-bg-1 {
+    background: url(../img/1.jpg) 0 0 / cover no-repeat;
+}
+
+.projects-bg-2 {
+    background: url(../img/2.jpg) 0 0 / cover no-repeat;
+}
+
+.projects-bg-3 {
+    background: url(../img/3.jpg) 0 0 / cover no-repeat;
+}
+
+.projects-bg-4 {
+    background: url(../img/4.jpg) 0 0 / cover no-repeat;
+}
+
+.projects-bg-5 {
+    background: url(../img/5.jpg) 0 0 / cover no-repeat;
+}
+
+.projects-bg-6 {
+    background: url(../img/6.jpg) 0 0 / cover no-repeat;
+}
+
+
+.fashion {
+    max-width: 1270px;
+    padding: 0 15px 150px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.left {
+    display: inline-block;
+    max-width: 614px;
+    height: 640px;
+    width: 100%;
+    background: url(../img/unsplash_bBiuSdck8tU.jpg) 50% / cover no-repeat;
+    padding: 183px 74px 174px 75px;
+    overflow: hidden;
+    border-radius: 8px 0 0 8px;
+}
+
+.left h2 {
+    color: white;
+    font-size: 34px;
+    font-family: Core Sans C;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0.21px;
+    margin-bottom: 30px;
+
+}
+
+.left p {
+    color: white;
+    font-size: 20px;
+    font-family: Causten;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+.left a {
+    color: #3C4242;
+    font-size: 18px;
+    font-family: Causten;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    padding: 12px 44px;
+    border-radius: 8px;
+    text-transform: capitalize;
+}
+
+.right {
+    display: inline-block;
+    width: 100%;
+    max-width: 626px;
+    height: 640px;
+    vertical-align: top;
+    background: url(../img/Rectangle\ 13.jpg) 50% / cover no-repeat;
+    border-radius: 0 8px 8px 0;
+}
