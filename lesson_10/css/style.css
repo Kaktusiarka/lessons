@@ -1,0 +1,29 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+    font-family: "Inter", sans-serif;
+    color: black;
+    font-size: 18px;
+}
+
+.header p:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.main p:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.header,
+.main {
+    padding: 30px 100px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.photo {
+    max-width: 600px;
+}
